@@ -19,7 +19,6 @@ h1 {
 
 .drum-kit-container {
   text-align: center;
-  
 }
 
 .btn {
@@ -31,4 +30,19 @@ h1 {
   min-width: 200px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  background-image: url('./images/tom.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-family: cursive;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: pink;
+}
+
+.btn:active {
+  background-size: 105%;
 }
